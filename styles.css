@@ -94,12 +94,11 @@ select {
    margin-right: 20px;
    text-decoration: none;
    color: #222;
-   border-bottom: 1px transparent;
    padding: 8px;
 }
 
 .link:hover{
-   border-bottom: 1px solid #222;
+   text-decoration: underline;
 }
 
 .link-app-menu{
@@ -252,10 +251,8 @@ footer{
 
 
 .footer-link{ 
-   /* margin-right: 20px; */
    text-decoration: none;
    color: #70757a;
-   border-bottom: 1px transparent;
    padding: 15px;
 }
 
@@ -266,14 +263,14 @@ footer{
 .footer-span{
    text-decoration: none;
    color: #70757a;
-   border-bottom: 1px solid transparent
+   margin-left: 5px;
 }
 .footer-span:hover{
-   border-bottom: 1px solid #777
+   text-decoration: underline;
 }
 
 .footer-link:hover{
-   border-bottom: 1px solid #222;
+   text-decoration: underline;
 } 
 
 @media only screen and (max-width:1150px) {
