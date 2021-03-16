@@ -95,10 +95,27 @@ select {
    text-decoration: none;
    color: #222;
    border-bottom: 1px transparent;
+   padding: 8px;
 }
 
 .link:hover{
    border-bottom: 1px solid #222;
+}
+
+.link-app-menu{
+   margin-right: 20px;
+   text-decoration: none;
+   color: #222;
+   padding: 8px;
+}
+
+.fa-th{
+   font-size: 16px;
+}
+
+.link-app-menu:hover{
+   background-color: rgba(60,64,67,0.08);
+   border-radius: 50%;
 }
 
 .btn{
@@ -195,4 +212,129 @@ input::placeholder{
 input:focus{
    outline: none;
 }
+
+footer{
+   background-color: rgb(242, 242, 242);
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   text-align: center;
+   padding: 15px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.footer-div-left{
+   order: 1;
+}
+
+.footer-div-center{
+   order: 2;
+}
+
+.footer-div-right{
+   order: 3;
+}
+
+.fa-envira{
+   color: green;
+}
+
+
+.footer-link{ 
+   /* margin-right: 20px; */
+   text-decoration: none;
+   color: #70757a;
+   border-bottom: 1px transparent;
+   padding: 15px;
+}
+
+.footer-link-mid{
+   text-decoration: none;
+}
+
+.footer-span{
+   text-decoration: none;
+   color: #70757a;
+   border-bottom: 1px solid transparent
+}
+.footer-span:hover{
+   border-bottom: 1px solid #777
+}
+
+.footer-link:hover{
+   border-bottom: 1px solid #222;
+} 
+
+@media only screen and (max-width:1150px) {
+   body {
+     background-color: lightblue;
+   }
+   footer{
+      flex-wrap: wrap;
+      justify-content: center;
+   
+   }
+
+   .footer-div-center{
+      width: 100%;
+      margin-bottom: 20px;
+      order: 1;
+   }
+
+   .footer-div-left{
+      width: 50%;
+      order: 2;
+      margin-bottom: 20px;
+   }
+
+   .footer-div-right{
+      width: 50%;
+      order: 3;
+   }
+ }
+
+ @media only screen and (max-width:1150px) {
+   body {
+     background-color: lightblue;
+   }
+   footer{
+      flex-wrap: wrap;
+      justify-content: center;
+   
+   }
+
+   .footer-div-center{
+      width: 100%;
+      margin-bottom: 20px;
+      order: 1;
+   }
+
+   .footer-div-left{
+      width: 50%;
+      order: 2;
+      margin-bottom: 20px;
+   }
+
+   .footer-div-right{
+      width: 50%;
+      order: 3;
+   }
+ }
+
+ @media only screen and (max-width:750px) {
+   body{
+      background-color: red;
+   }
+
+   .footer-div-left{
+      width: 100%;
+   }
+
+   .footer-div-right{
+      width: 100%;
+   }
+ }
 
